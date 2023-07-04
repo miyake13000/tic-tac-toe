@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   get 'game.new', to: 'game#new'
   post 'game.join', to: 'game#join'
   post 'game.move', to: 'game#move'
-  get 'game.board', to: 'game#board'
+  post 'game.board', to: 'game#board'
   post 'game.giveup', to: 'game#giveup'
 end
